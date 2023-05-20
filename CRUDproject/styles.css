@@ -1,0 +1,39 @@
+.navbar
+{
+   
+    background-color: black;
+    border-radius: 30px;
+}
+.navbar li{
+    float: left;
+    margin: 13px 20px;
+    list-style: none;
+}
+ul{
+    overflow: hidden;
+}
+.navbar li a{
+    padding: 3px 3px;
+    color: white;
+    text-decoration: none;
+}
+.search
+{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.search input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+.form
+{
+    border: 2px solid black;
+    display: flex;
+}
+form{
+    flex-direction: column;
+}
